@@ -1,10 +1,10 @@
 # yt-analytics
 
-## To run analytics
+## To view video like ratio
 
 1. Install extension
 2. Pin extension
-3. Click on extension icon to view video like ratio
+3. Click on extension icon
 
 ## Examples
 
