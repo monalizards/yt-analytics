@@ -7,13 +7,9 @@ const getNumberFromString = (str) => {
 const analyse = () => {
   // extract number of likes from page
   const buttons = document.querySelectorAll("button");
-  let likeButton = null;
-  for (const button of buttons) {
-    if (button.ariaLabel && button.ariaLabel.includes("like this video")) {
-      likeButton = button;
-      break;
-    }
-  }
+  const likeButton = Array.from(buttons).find(
+    (button) => button.ariaLabel && button.ariaLabel.includes("like this video")
+  );
   const likeCount = getNumberFromString(likeButton.ariaLabel);
 
   //   extract number of views from page
