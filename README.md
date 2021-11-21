@@ -8,6 +8,6 @@
 
 ## Examples
 
-![Screenshot-0](/screenshots/screenshot_0.jpg)
+![Screenshot-0](/screenshots/screenshot_0.png)
 
 ![Screenshot-1](/screenshots/screenshot_1.png)
